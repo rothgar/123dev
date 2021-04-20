@@ -21,11 +21,6 @@ theme = "hermit"
 [menu]
 
   [[menu.main]]
-    name = "Subscribe"
-    url = "https://buttondown.email/123dev"
-    weight = 10
-
-  [[menu.main]]
     name = "Archive"
     url = "https://buttondown.email/123dev/archive"
     weight = 20
