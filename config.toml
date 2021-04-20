@@ -1,0 +1,31 @@
+baseURL = "https://123dev.email"
+languageCode = "en-us"
+title = "123 dev"
+
+disableKinds = "RSS"
+theme = "hermit"
+
+[author]
+  name = "Justin Garrison"
+  url = "https://twitter.com/rothgar"
+
+[taxonomies]
+  tag = "tags"
+
+[params]
+
+  homeSubtitle = "A newsletter to make you a better developer."
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/123devemail"
+[menu]
+
+  [[menu.main]]
+    name = "Subscribe"
+    url = "https://buttondown.email/123dev"
+    weight = 10
+
+  [[menu.main]]
+    name = "Archive"
+    url = "https://buttondown.email/123dev/archive"
+    weight = 20
