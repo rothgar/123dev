@@ -13,11 +13,8 @@ theme = "hermit"
   tag = "tags"
 
 [params]
+  homeSubtitle = "A newsletter to make you a better developer with the power of gifs."
 
-  homeSubtitle = "A newsletter to make you a better developer."
-  [[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/123devemail"
 [menu]
 
   [[menu.main]]
