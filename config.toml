@@ -23,5 +23,5 @@ theme = "hermit"
 
   [[menu.main]]
     name = "Archive"
-    url = "https://buttondown.email/123dev/archive"
+    url = "/archive"
     weight = 20
