@@ -1,0 +1,48 @@
+{{ define "head" }}
+	{{ if .Params.featuredImg -}}
+	<style>.bg-img {background-image: url('{{.Params.featuredImg | absURL}}');}</style>
+	{{- else if .Params.images -}}
+		{{- range first 1 .Params.images -}}
+		<style>.bg-img {background-image: url('{{. | absURL}}');}</style>
+		{{- end -}}
+	{{- end -}}
+{{ end }}
+
+{{ define "header" }}
+{{ partial "twitter-vid.html" . }}
+{{ partial "header.html" . }}
+{{ end }}
+
+{{ define "main" }}
+	{{- if (or .Params.images .Params.featuredImg) }}
+	<div class="bg-img"></div>
+	{{- end }}
+	<main class="site-main section-inner thin animated fadeIn faster">
+		<style type="text/css">
+			video {
+			   width:100%;
+			   /* max-width:1280px;
+			   height: au 720px; */
+			}
+		</style>
+			
+		<video title="{{ .Params.altext }}" width="100%" controls autoplay>
+			  <source src="{{ .Params.video | absURL }}" type="video/mp4">
+			Your browser does not support video
+		</video>
+		<p>via <a href={{ .Params.attribution }}>{{ .Params.attribution_site }}</a></p>
+		<h1>{{ .Title }}</h1>
+		<div class="content">
+			{{ .Content }}
+		</div>
+		{{- if .Params.comments }}
+		<div id="comments" class="thin">
+			{{ partial "comments.html" . }}
+		</div>
+		{{- end }}
+	</main>
+{{ end }}
+
+{{ define "footer" }}
+{{ partialCached "footer.html" . }}
+{{ end }}

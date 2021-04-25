@@ -14,6 +14,8 @@ theme = "hermit"
 
 [params]
   homeSubtitle = "A newsletter to make you a better developer with the power of gifs."
+  description = "A newsletter to make you a better developer with the power of gifs."
+  images = ["og-banner.png"]
 
 [menu]
 
