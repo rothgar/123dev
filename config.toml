@@ -1,4 +1,4 @@
-baseURL = "https://123dev.email/"
+baseURL = "https://123dev.email"
 languageCode = "en-us"
 title = "123 dev"
 
@@ -17,7 +17,7 @@ theme = "hermit"
 
   homeSubtitle = "A newsletter to make you a better developer with the power of gifs."
   description = "A newsletter to make you a better developer with the power of gifs."
-  images = ["img/og-banner.png"]
+  images = ["media/og-banner.png"]
 
 [menu]
 

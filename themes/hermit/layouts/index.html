@@ -17,9 +17,10 @@
 	{{- end }} -->
 	<div id="spotlight" class="animated fadeIn">
 		<div id="home-center">
-			<picture class="center" style="width: 559px;">
-				<source type="video/mp4" srcset="{{ .Site.BaseURL }}/vid/1.mp4">
-				<img src="{{ .Site.BaseURL }}/img/1.gif">
+			<picture class="center">
+				<source type="video/mp4" srcset="{{ .Site.BaseURL }}/media/1.mp4">
+				<!-- <img src="{{ .Site.BaseURL }}/media/1.mp4"> -->
+				<img src="{{ .Site.BaseURL }}/media/1.gif">
 			</picture>
 			<h1 id="home-title">{{ .Site.Title }}</h1>
 			{{- with .Site.Params.homeSubtitle }}
