@@ -1,4 +1,4 @@
-baseURL = "https://123dev.email"
+baseURL = "https://preview.123dev-website.pages.dev/"
 languageCode = "en-us"
 title = "123 dev"
 
@@ -13,11 +13,15 @@ theme = "hermit"
   tag = "tags"
 
 [params]
+  dateformShort   = "Jan 2"
+
   homeSubtitle = "A newsletter to make you a better developer with the power of gifs."
+  description = "A newsletter to make you a better developer with the power of gifs."
+  images = ["img/og-banner.png"]
 
 [menu]
 
   [[menu.main]]
     name = "Archive"
-    url = "https://buttondown.email/123dev/archive"
+    url = "/archive"
     weight = 20
