@@ -19,17 +19,21 @@
 	{{- end }}
 	<main class="site-main section-inner thin animated fadeIn faster">
 		<style type="text/css">
-			video {
-			   width:100%;
+			picture {
+			   width: 100%;
 			   /* max-width:1280px;
 			   height: au 720px; */
 			}
 		</style>
 			
-		<video title="{{ .Params.altext }}" width="100%" controls autoplay loop muted>
+		<picture>
+			<source type="video/mp4" srcset="{{ .Site.BaseURL }}/vid/{{ .File.TranslationBaseName }}.mp4">
+			<img src="{{ .Site.BaseURL }}/img/{{ .File.TranslationBaseName }}.gif">
+		</picture>
+		<!-- <video title="{{ .Params.altext }}" width="100%" controls autoplay loop muted>
 			  <source src="{{ .Site.BaseURL }}/vid/{{ .File.TranslationBaseName }}.mp4" type="video/mp4">
 			Your browser does not support video
-		</video>
+		</video> -->
 		<p>via <a href={{ .Params.attribution }}>{{ .Params.attribution_site }}</a></p>
 		<h1>{{ .Title }}</h1>
 		<div class="content">
@@ -44,5 +48,5 @@
 {{ end }}
 
 {{ define "footer" }}
-{{ partialCached "footer.html" . }}
+{{ partial "footer.html" . }}
 {{ end }}
