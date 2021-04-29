@@ -17,11 +17,9 @@
 	{{- end }} -->
 	<div id="spotlight" class="animated fadeIn">
 		<div id="home-center">
-			<picture class="center">
-				<source type="video/mp4" srcset="{{ .Site.BaseURL }}/media/1.mp4">
-				<!-- <img src="{{ .Site.BaseURL }}/media/1.mp4"> -->
-				<img src="{{ .Site.BaseURL }}/media/1.gif">
-			</picture>
+			<video muted autoplay loop playsinline
+				src="{{ .Site.BaseURL }}/media/1.mp4">
+			</video>
 			<h1 id="home-title">{{ .Site.Title }}</h1>
 			{{- with .Site.Params.homeSubtitle }}
 			<p id="home-subtitle">{{.}}</p>
