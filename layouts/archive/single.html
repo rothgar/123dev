@@ -17,26 +17,19 @@
 	<div class="bg-img"></div>
 	{{- end }}
 	<main class="site-main section-inner thin animated fadeIn faster">
-		<style type="text/css">
-			picture {
-			   width: 100%;
-			   max-width:1280px;
-			   height: au 720px;
-			}
-		</style>
 
+		<h1>{{ .Title }}</h1>
 		<video width="100%" muted autoplay loop playsinline
 			src="{{ .Site.BaseURL }}/media/{{ .File.TranslationBaseName }}.mp4" ></video>
 		<p>via <a href={{ .Params.attribution }}>{{ .Params.attribution_site }}</a></p>
-		<h1>{{ .Title }}</h1>
 		<div class="content">
 			{{ .Content }}
 		</div>
-		{{- if .Params.comments }}
-		<div id="comments" class="thin">
-			{{ partial "comments.html" . }}
-		</div>
-		{{- end }}
+		<a href="{{ .Site.BaseURL }}">Home</a> • 
+		{{ with .NextInSection }}
+		<a href="{{ .Permalink }}">Next Email</a>
+		{{ end }}
+		</br>
 	</main>
 {{ end }}
 
