@@ -1,9 +1,9 @@
 {{ define "head" }}
 	{{ if .Params.featuredImg -}}
-	<style>.bg-img {background-image: url('{{.Params.featuredImg | absURL}}');}</style>
+	<style>.bg-img {background-image: url('{{.Params.featuredImg | relURL}}');}</style>
 	{{- else if .Params.images -}}
 		{{- range first 1 .Params.images -}}
-		<style>.bg-img {background-image: url('{{. | absURL}}');}</style>
+		<style>.bg-img {background-image: url('{{. | relURL}}');}</style>
 		{{- end -}}
 	{{- end -}}
 {{ end }}
@@ -17,32 +17,19 @@
 	<div class="bg-img"></div>
 	{{- end }}
 	<main class="site-main section-inner thin animated fadeIn faster">
-		<style type="text/css">
-			picture {
-			   width: 100%;
-			   max-width:1280px;
-			   height: au 720px;
-			}
-		</style>
-			
-		<picture>
-			<source type="video/mp4" srcset="{{ .Site.BaseURL }}/media/{{ .File.TranslationBaseName }}.mp4">
-			<img src="{{ .Site.BaseURL }}/media/{{ .File.TranslationBaseName }}.gif">
-		</picture>
-		<!-- <video title="{{ .Params.altext }}" width="100%" controls autoplay loop muted>
-			  <source src="{{ .Site.BaseURL }}/media/{{ .File.TranslationBaseName }}.mp4" type="video/mp4">
-			Your browser does not support video
-		</video> -->
-		<p>via <a href={{ .Params.attribution }}>{{ .Params.attribution_site }}</a></p>
+
 		<h1>{{ .Title }}</h1>
+		<video width="100%" muted autoplay loop playsinline
+			src="{{ .Site.BaseURL }}/media/{{ .File.TranslationBaseName }}.mp4" ></video>
+		<p>via <a href={{ .Params.attribution }}>{{ .Params.attribution_site }}</a></p>
 		<div class="content">
 			{{ .Content }}
 		</div>
-		{{- if .Params.comments }}
-		<div id="comments" class="thin">
-			{{ partial "comments.html" . }}
-		</div>
-		{{- end }}
+		<a href="{{ .Site.BaseURL }}">Home</a> • 
+		{{ with .NextInSection }}
+		<a href="{{ .Permalink }}">Next Email</a>
+		{{ end }}
+		</br>
 	</main>
 {{ end }}
 
