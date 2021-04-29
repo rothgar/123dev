@@ -6,15 +6,12 @@
 		<style>.bg-img {background-image: url('{{. | absURL}}');}</style>
 		{{- end -}}
 	{{- end -}}
+	{{ partial "twitter-vid-home.html" . }}
 {{ end }}
 
 {{ define "main" }}
 
 </style>
-<!-- uncomment for Feature Image background -->
-	<!-- {{- if (or .Site.Params.images .Site.Params.bgImg) }}
-	<div class="bg-img"></div>
-	{{- end }} -->
 	<div id="spotlight" class="animated fadeIn">
 		<div id="home-center">
 			<video muted autoplay loop playsinline
