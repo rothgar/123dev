@@ -11,6 +11,11 @@
 
 {{ define "main" }}
 
+#either-gif-or-video video { display: none; }
+@media (-webkit-video-playable-inline) {
+    #either-gif-or-video img { display: none; }
+    #either-gif-or-video video { display: initial; }
+}
 </style>
 	<div id="spotlight" class="animated fadeIn">
 		<div id="home-center">
