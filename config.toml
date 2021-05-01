@@ -20,6 +20,10 @@ paginate = 10
   homeSubtitle = "A newsletter to make you a better developer with the power of gifs."
   description = "A newsletter to make you a better developer with the power of gifs."
 
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/123devEmail"
+
 [languages]
   [languages.en]
     title = "123 dev newsletter"
