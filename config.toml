@@ -2,7 +2,7 @@ baseURL = "https://123dev.email/"
 languageCode = "en-us"
 title = "123 dev"
 theme = "hello-friend-ng"
-paginate = 10
+paginate = 5
 
 [author]
   name = "Justin Garrison"

@@ -11,30 +11,18 @@
         <span class="post-date">
           {{ .Date.Format "2006-01-02" }}
         </span>
-        <span class="post-author">{{ .Site.Params.WrittenBy }} {{ .Params.Author }}</span>
       </div>
 
-      {{ if .Params.tags }}
-        <span class="post-tags">
-          {{ range .Params.tags }}
-            #<a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">{{ . }}</a>&nbsp;
-          {{ end }}
-        </span>
+      <a href="{{ .Permalink }}">
+        {{ with .Params.Cover }}
+        <video width="100%" muted autoplay loop playsinline>
+          <source src="{{ $.Site.BaseURL }}/media/{{ . }}.mp4" >
+          <img src="{{ $.Site.BaseURL }}/media/{{ . }}.mp4" >
+          <img src="{{ $.Site.BaseURL }}/media/{{ . }}.gif" >
+        </video>
+      </a>
       {{ end }}
 
-      {{ with .Params.Cover }}
-        <img src="/img/{{ . }}" class="post-cover" />
-      {{ end }}
-
-      <div class="post-content">
-        {{ with .Description }}
-          {{ . | markdownify }}
-        {{ else }}
-          {{ if .Truncated }}
-            {{ .Summary | markdownify }}
-          {{ end }}
-        {{ end }}
-      </div>
       <div><a class="read-more button" href="{{.RelPermalink}}">{{ .Site.Params.ReadMore }} →</a></div>
     </div>
     {{ end }}
