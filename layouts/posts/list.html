@@ -17,8 +17,8 @@
         {{ with .Params.Cover }}
         <video width="100%" muted autoplay loop playsinline>
           <source src="{{ $.Site.BaseURL }}/media/{{ . }}.mp4" >
-          <img src="{{ $.Site.BaseURL }}/media/{{ . }}.mp4" >
-          <img src="{{ $.Site.BaseURL }}/media/{{ . }}.gif" >
+          <img loading="lazy" src="{{ $.Site.BaseURL }}/media/{{ . }}.mp4" >
+          <img loading="lazy" src="{{ $.Site.BaseURL }}/media/{{ . }}.gif" >
         </video>
       </a>
       {{ end }}
