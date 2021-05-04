@@ -1,0 +1,8 @@
+{{ define "main" }}
+		<video width="100%" muted autoplay loop playsinline>
+			<source src="{{ .Site.BaseURL }}/media/{{ .File.TranslationBaseName }}.mp4" >
+			<img src="{{ .Site.BaseURL }}/media/{{ .File.TranslationBaseName }}.mp4" >
+			<img src="{{ .Site.BaseURL }}/media/{{ .File.TranslationBaseName }}.gif" >
+		</video>
+{{ end }}
+
