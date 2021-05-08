@@ -9,7 +9,8 @@ paginate = 5
   url = "https://twitter.com/rothgar"
 
 [taxonomies]
-  category = "archive"
+  tag      = "tags"
+  category = "categories"
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -43,4 +44,4 @@ paginate = 5
   [[menu.main]]
     name = "Archive"
     url = "/posts"
-    weight = 20
+    identifier = "archive"
