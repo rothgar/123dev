@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Embeds on 123 dev newsletter</title>
+    <link>https://123dev.email/embed/</link>
+    <description>Recent content in Embeds on 123 dev newsletter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Tue, 04 May 2021 13:13:00 -0700</lastBuildDate><atom:link href="https://123dev.email/embed/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The feeling the first time your code works</title>
+      <link>https://123dev.email/embed/18/</link>
+      <pubDate>Tue, 04 May 2021 13:13:00 -0700</pubDate>
+      
+      <guid>https://123dev.email/embed/18/</guid>
+      <description>Comments When code works Sometimes I&amp;rsquo;m equally surprised as this baby when my code works. Especially when I either do it on the first try or I fight with it for days and finally figure it out. It&amp;rsquo;s exciting and then I try to figure out why it works.
+Know where to look for a problem I struggled with something for the new 123dev website for a few nights this past week.</description>
+    </item>
+    
+    <item>
+      <title>Is magic real?</title>
+      <link>https://123dev.email/embed/17/</link>
+      <pubDate>Tue, 27 Apr 2021 13:13:00 -0700</pubDate>
+      
+      <guid>https://123dev.email/embed/17/</guid>
+      <description>Comments I still don&amp;rsquo;t know how this works I was at Disney Animation when they first showed us the animatronics for the new Beauty and the Beast ride for Tokyo Disneyland. I never saw this transformation and still don&amp;rsquo;t understand how it works.
+Honestly a lot of code I write feels the same way. The fact that I can tell transistors what to do with any resemblance of English language is pretty magical.</description>
+    </item>
+    
+    <item>
+      <title>What does Blockbuster and misquoting Darwin have in common?</title>
+      <link>https://123dev.email/embed/16/</link>
+      <pubDate>Tue, 20 Apr 2021 13:13:00 -0700</pubDate>
+      
+      <guid>https://123dev.email/embed/16/</guid>
+      <description>Comments Survival In the struggle for survival, the fittest win out at the expense of their rivals because they succeed in adapting themselves best to their environment.
+You may think that quote is from Charles Darwin but it is actually a misquote. I&amp;rsquo;ll let you do your own homework to find the true author.
+Why the cloud Many people use the cloud for different reasons. Maybe it&amp;rsquo;s for features, for scale, or for cost.</description>
+    </item>
+    
+    <item>
+      <title>Writing things from scratch and containers</title>
+      <link>https://123dev.email/embed/15/</link>
+      <pubDate>Tue, 13 Apr 2021 13:13:00 -0700</pubDate>
+      
+      <guid>https://123dev.email/embed/15/</guid>
+      <description>Comments Planning work I&amp;rsquo;m sure many of you saw this gif in various places recently. There&amp;rsquo;s lots of similarities that are obvious from a software engineering perspective. To me it shows how difficult a re-write really is.
+Estimating “Most people overestimate what they can achieve in a year and underestimate what they can achieve in ten years.”
+The same is true for what I can achieve in an afternoon and what I can achieve in a week.</description>
+    </item>
+    
+    <item>
+      <title>Rolling upgrades and three links I disagree with</title>
+      <link>https://123dev.email/embed/14/</link>
+      <pubDate>Tue, 06 Apr 2021 13:13:00 -0700</pubDate>
+      
+      <guid>https://123dev.email/embed/14/</guid>
+      <description>Comments Rolling upgrades The gif this week is the first of many I&amp;rsquo;ve made with a focus on teaching engineering concepts. It is part of an article I wrote for The New Stack explaining different patterns for Kubernetes cluster upgrades. The full article be available later this month.
+With a little bit of shared knowledge you know exactly what is happening in that gif with almost no words. I&amp;rsquo;ll still be sharing gifs I find funny or intriguing in the newsletter, but creating and sharing my own gifs was a desire from day 0.</description>
+    </item>
+    
+    <item>
+      <title>Just say no ⚽😑</title>
+      <link>https://123dev.email/embed/13/</link>
+      <pubDate>Tue, 30 Mar 2021 13:13:00 -0700</pubDate>
+      
+      <guid>https://123dev.email/embed/13/</guid>
+      <description>Comments Do you know how to say no? People often feel guilty for saying no to opportunities, but in reality you should say no when you really care about something but know you are not the best person. It doesn&amp;rsquo;t matter if you&amp;rsquo;re not interested, if you don&amp;rsquo;t have enough time, or you don&amp;rsquo;t have the right skills. If you understand saying no will make the project/event/collaboration/etc. more successful then you can better position yourself to say no and explain why.</description>
+    </item>
+    
+    <item>
+      <title>Your code is on fire 🔥</title>
+      <link>https://123dev.email/embed/12/</link>
+      <pubDate>Tue, 23 Mar 2021 13:13:00 -0700</pubDate>
+      
+      <guid>https://123dev.email/embed/12/</guid>
+      <description>Comments Shipping code that doesn&amp;rsquo;t catch fire Sometimes I push code into production that I&amp;rsquo;m certain will work well. Not because of test coverage or PR reviews, but usually just because the change was so simple and obvious there couldn&amp;rsquo;t possibly be another way to do it.
+Many times those pushes work fine and my false confidence is reinforced to do it again another day. Often times I end up paying for an undocumented quick fix later.</description>
+    </item>
+    
+    <item>
+      <title>Practice, handling errors, and some python 🐍</title>
+      <link>https://123dev.email/embed/11/</link>
+      <pubDate>Tue, 16 Mar 2021 13:13:00 -0700</pubDate>
+      
+      <guid>https://123dev.email/embed/11/</guid>
+      <description>Comments Practice I&amp;rsquo;ve been on a diet and I&amp;rsquo;m pretty sure this cat has better sit-up form than I have. Just like anything we do it takes practice and if we don&amp;rsquo;t do it for a while we fall out of form. As much as I exercised in high school I have to relearn a lot after not doing much for the past 20 years.
+Even if I&amp;rsquo;ve written a lot of code it will take me some practice to pick it up again after a break.</description>
+    </item>
+    
+    <item>
+      <title>Hidden work, systems design, compensation, and faster learning</title>
+      <link>https://123dev.email/embed/10/</link>
+      <pubDate>Tue, 09 Mar 2021 13:13:00 -0700</pubDate>
+      
+      <guid>https://123dev.email/embed/10/</guid>
+      <description>Comments Hidden work I never thought about how donuts were filled. I should have guessed it was someone&amp;rsquo;s job, but I assumed it was automated. It makes me realize there&amp;rsquo;s a lot of work I never think about.
+There is lots of work I do that no one else thinks about. This isn&amp;rsquo;t a bad thing. It&amp;rsquo;s important to view my work as a delightful filling to someone&amp;rsquo;s day. Hopefully, like this email is for you.</description>
+    </item>
+    
+    <item>
+      <title>Balance, free resources, lock-in, and whitepapers</title>
+      <link>https://123dev.email/embed/9/</link>
+      <pubDate>Tue, 02 Mar 2021 13:13:00 -0700</pubDate>
+      
+      <guid>https://123dev.email/embed/9/</guid>
+      <description>Comments Balance Learning how to ride a bike requires you to balance in new ways. Riding a bike on a tight rope requires similar balance, and I can only image the perceived risks of failure makes it exponentially harder to focus.
+Trying anything new will require some sort of balance. Physical, mental, time management, relationships all create a balance in our lives that can easily topple due to unexpected illnesses, changes in priority, or adding new plates to juggle.</description>
+    </item>
+    
+    <item>
+      <title>Vertical auto scaling Daft Punk elliptic curves</title>
+      <link>https://123dev.email/embed/8/</link>
+      <pubDate>Tue, 23 Feb 2021 13:13:00 -0700</pubDate>
+      
+      <guid>https://123dev.email/embed/8/</guid>
+      <description>Comments One more feature It&amp;rsquo;s difficult with software to know when to stop and release what you have. There&amp;rsquo;s always one more feature to create and one more bug to squash. Putting out software you know has bugs or doesn&amp;rsquo;t do everything you want is anxiety inducing but also freeing because it can only get better from here.
+Side projects I like side projects because they give me creative outlets and new ways to learn.</description>
+    </item>
+    
+    <item>
+      <title>How to learn and three projects to try</title>
+      <link>https://123dev.email/embed/7/</link>
+      <pubDate>Tue, 16 Feb 2021 13:13:00 -0700</pubDate>
+      
+      <guid>https://123dev.email/embed/7/</guid>
+      <description>Comments Company presentations and movie magic I often watch conference talks from companies that appear to be complete internal products, but behind the scenes are more like the blackbird car in the gif above. Companies have high performance, purpose built solutions they create and then present them as the answer to everyone&amp;rsquo;s problem. This isn&amp;rsquo;t always a negative thing. You should be aware that their Ferrari may not have a windshield or AC.</description>
+    </item>
+    
+    <item>
+      <title>🔒 Creating IAM and handling exceptions</title>
+      <link>https://123dev.email/embed/6/</link>
+      <pubDate>Tue, 09 Feb 2021 13:13:00 -0700</pubDate>
+      
+      <guid>https://123dev.email/embed/6/</guid>
+      <description>Comments The weight of nothing Sometimes we make decisions in software and design that appear to have no impact on what we&amp;rsquo;re building. After many years of unchecked decisions we may find our systems breaking from a million — seemingly weightless — snowflakes.
+Future of open source Open source is changing and so are the people and communities. What started as free software stored in a drawer back when people used to share computers has evolved into big business and companies trying to protect the type of open source that benefits them.</description>
+    </item>
+    
+    <item>
+      <title>HTML, queues, and whiteboarding</title>
+      <link>https://123dev.email/embed/5/</link>
+      <pubDate>Tue, 02 Feb 2021 13:13:00 -0700</pubDate>
+      
+      <guid>https://123dev.email/embed/5/</guid>
+      <description>Comments HTML There were some conversations on Twitter this past weekend that HTML is not a programming language. I don&amp;rsquo;t care about semantics, but I DO care to recognize people that write HTML as developers.
+My first full-time job I wrote code to solve problems even though I didn&amp;rsquo;t have &amp;ldquo;developer&amp;rdquo; in my title. I automated a job that used to take 3 weeks down to 3 hours with the code I wrote.</description>
+    </item>
+    
+    <item>
+      <title>📃 Make your resume stand better and write your docs with symantic line breaks</title>
+      <link>https://123dev.email/embed/4/</link>
+      <pubDate>Tue, 26 Jan 2021 13:13:00 -0700</pubDate>
+      
+      <guid>https://123dev.email/embed/4/</guid>
+      <description>Comments Open Source There&amp;rsquo;s been a lot of open source news this week between my current employer and Elastic. I have nothing to do with it directly, but it reminds me that open source is people which means there will always be drama.
+Even when it&amp;rsquo;s billion dollar companies it often comes down to a small number of people making decisions. I think this weeks drama hurt the image of open source more than it helped.</description>
+    </item>
+    
+    <item>
+      <title>AWS as a framework, pair terminals, and bash script template</title>
+      <link>https://123dev.email/embed/3/</link>
+      <pubDate>Tue, 19 Jan 2021 13:13:00 -0700</pubDate>
+      
+      <guid>https://123dev.email/embed/3/</guid>
+      <description>Comments Learning to code The more programming languages I learn the more it resembles human language for me. It takes a lot of practice to write content that humans want to read. It takes similar practice to write code that computers want to execute.
+If I start writing in another language the meaning of the words might be the same, but how they will be interpreted by the readers could be completely different.</description>
+    </item>
+    
+    <item>
+      <title>Learning new things and developer productivity</title>
+      <link>https://123dev.email/embed/2/</link>
+      <pubDate>Tue, 12 Jan 2021 13:13:00 -0700</pubDate>
+      
+      <guid>https://123dev.email/embed/2/</guid>
+      <description>Comments Learning new things The gif reminded me of what it feels like to be new to something. You think you know where you&amp;rsquo;re going, you start to understand what you&amp;rsquo;re doing, and then you&amp;rsquo;re free falling. You pull the rip cord, gain a resemblance of control, and slow down—just a little bit.
+Learning new things doesn&amp;rsquo;t end the way it started and you still don&amp;rsquo;t understand it all, but you&amp;rsquo;re having fun and want more!</description>
+    </item>
+    
+    <item>
+      <title>Welcome to 123 dev!</title>
+      <link>https://123dev.email/embed/1/</link>
+      <pubDate>Tue, 05 Jan 2021 13:13:00 -0700</pubDate>
+      
+      <guid>https://123dev.email/embed/1/</guid>
+      <description>Welcome to 123 dev Since this is the 0th newsletter I&amp;rsquo;ll explain how it works. I&amp;rsquo;d like to help you learn development or become a better developer. I also want you to look forward to opening this newsletter. I&amp;rsquo;ll keep the content short so you can skim everything in under 10 minutes. I&amp;rsquo;ll do that by always providing:
+ 1 gif 2 comments 3 links  The gif will hopefully make you smile.</description>
+    </item>
+    
+  </channel>
+</rss>
