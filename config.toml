@@ -8,6 +8,16 @@ paginate = 5
   name = "Justin Garrison"
   url = "https://twitter.com/rothgar"
 
+[outputs]
+  page = ["HTML", "EMBED"]
+
+[outputFormats]
+  [outputFormats.embed]
+    name = "embed"
+    mediaType = "text/html"
+    path = "embed"
+    isHTML = true
+
 [taxonomies]
   tag      = "tags"
   category = "categories"
