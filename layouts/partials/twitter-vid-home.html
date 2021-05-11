@@ -6,7 +6,7 @@
 <meta name="twitter:image:alt" content="{{ .Params.altext }}" />
 <meta name="twitter:image" content="{{ .Site.BaseURL }}/media/1.gif" />
 <meta name="twitter:player" content="{{ .Permalink }}" />
-<meta name="twitter:player:width" content="640" />
-<meta name="twitter:player:height" content="360" />
+<meta name="twitter:player:width" content="{{ .Params.width | default 960 }}" />
+<meta name="twitter:player:height" content="{{ .Params.height | default 540 }}" />
 <meta name="twitter:player:stream" content="{{ .Site.BaseURL }}/media/1.mp4" />
 <meta name="twitter:player:stream:content_type" content="video/mp4" />
