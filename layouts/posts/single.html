@@ -22,6 +22,9 @@
     <div class="post-content">
       {{ .Content }}
     </div>
+
+    {{ partial "subscribe.html" . }}
+
     {{ if or .NextInSection .PrevInSection }}
       <div class="pagination">
         <div class="pagination__title">
