@@ -2,6 +2,7 @@ image: klakegg/hugo:ext-alpine-ci
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
+  HUGO_BASEURL: "https://jgarr.gitlab.io/123dev"
 
 pages:
   script:
