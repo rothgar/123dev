@@ -16,9 +16,9 @@
       <a href="{{ .Permalink }}">
         {{ with .Params.Cover }}
         <video width="100%" muted autoplay loop playsinline>
-          <source src="{{ $.Site.BaseURL }}/media/{{ . }}.mp4" >
-          <img loading="lazy" src="{{ $.Site.BaseURL }}/media/{{ . }}.mp4" >
-          <img loading="lazy" src="{{ $.Site.BaseURL }}/media/{{ . }}.gif" >
+          <source src="../media/{{ . }}.mp4" >
+          <img loading="lazy" src="../media/{{ . }}.mp4" >
+          <img loading="lazy" src="../media/{{ . }}.gif" >
         </video>
       </a>
       {{ end }}
