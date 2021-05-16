@@ -16,9 +16,15 @@
       <a href="{{ .Permalink }}">
         {{ with .Params.Cover }}
         <video width="100%" muted autoplay loop playsinline>
+          {{ if ne $paginator.PageNumber 1 }}
+          <source src="../../../media/{{ . }}.mp4" >
+          <img loading="lazy" src="../../../media/{{ . }}.mp4" >
+          <img loading="lazy" src="../../../media/{{ . }}.gif" >
+          {{ else }}
           <source src="../media/{{ . }}.mp4" >
           <img loading="lazy" src="../media/{{ . }}.mp4" >
           <img loading="lazy" src="../media/{{ . }}.gif" >
+          {{ end }}
         </video>
       </a>
       {{ end }}
