@@ -21,7 +21,7 @@
         this.responseText;
       }
     };
-    xhr.open("GET", "{{ .Site.BaseURL }}full/posts/{{ with .File }}{{ .TranslationBaseName }}{{ end }}/index.html", true);
+    xhr.open("GET", "../../full/posts/{{ with .File }}{{ .TranslationBaseName }}{{ end }}/index.html", true);
     xhr.send();
   };
   </script>
