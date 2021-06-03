@@ -9,13 +9,13 @@ paginate = 5
   url = "https://twitter.com/rothgar"
 
 [outputs]
-  page = ["HTML", "EMBED"]
+  page = ["HTML", "FULL"]
 
 [outputFormats]
-  [outputFormats.embed]
-    name = "embed"
+  [outputFormats.full]
+    name = "full"
     mediaType = "text/html"
-    path = "embed"
+    path = "full"
     isHTML = true
 
 [taxonomies]
