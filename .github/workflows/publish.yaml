@@ -1,0 +1,12 @@
+name: automatic deploy
+on:
+  schedule:
+    - cron:  '13 14 * * 2'
+jobs:
+  cron:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Curl vercel URL
+        run: |
+          curl --request POST \
+          --url '${{ secret.VERCEL_URL }}'
