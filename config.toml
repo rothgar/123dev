@@ -27,6 +27,7 @@ paginate = 5
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
+  EnableThemeToggle = true
 
   homeSubtitle = "A newsletter to make you a better developer with the power of gifs."
   description = "A newsletter to make you a better developer with the power of gifs."
