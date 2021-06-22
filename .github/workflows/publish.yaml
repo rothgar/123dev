@@ -9,4 +9,4 @@ jobs:
       - name: Curl vercel URL
         run: |
           curl --request POST \
-          --url '${{ secrets.VERCEL_URL }}'
+          --url "${{ secrets.VERCEL_URL }}"
