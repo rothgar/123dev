@@ -1,7 +1,7 @@
 name: automatic deploy
 on:
   schedule:
-    - cron:  '13 21 * * 2'
+    - cron:  '13 20 * * 2'
 jobs:
   cron:
     runs-on: ubuntu-latest
