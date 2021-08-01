@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://www.123dev.email/sitemap.xml
